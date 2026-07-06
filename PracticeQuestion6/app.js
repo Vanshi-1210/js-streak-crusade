@@ -1,5 +1,5 @@
 let str="ayhello"
-if(str[0]=="a" && str.length>3){
+if(str[0]==="a" && str.length>3){
     console.log("good string")
 }
 else{
