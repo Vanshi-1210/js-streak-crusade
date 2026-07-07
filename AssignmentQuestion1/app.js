@@ -22,20 +22,31 @@
 // Months in Quarter 3 : July, August, September
 // Months in Quarter 4: October, November, December
 // [Use the number as the case value in switch]
-let Quarter=3;
-switch(Quarter){
-    case 1:
-        console.log("Months in Quarter 1:January,February,March");
-        break;
-    case 2:
-        console.log("Months in Quarter 2:April,May,June");
-        break;
-    case 3:
-        console.log("Months in Quarter 3:July,August,September");
-        break;
-    case 4:
-        console.log("Months in Quarter 4:October,November,December");
-        break;
-}
+// let Quarter=3;
+// switch(Quarter){
+//     case 1:
+//         console.log("Months in Quarter 1:January,February,March");
+//         break;
+//     case 2:
+//         console.log("Months in Quarter 2:April,May,June");
+//         break;
+//     case 3:
+//         console.log("Months in Quarter 3:July,August,September");
+//         break;
+//     case 4:
+//         console.log("Months in Quarter 4:October,November,December");
+//         break;
+// }
+
+// Qs4. A string is a golden string if it starts with the character 'A' or 'a' and has a total length greater than 5.
+// For a given string print if it is golden or not.
+
+let string="Amritsar";
+if((string[0]=='a'||string[0]=='A')&& string.length>5){
+    console.log("golden string");
+}else{
+        console.log("not a golden string")
+    }
+
 
 
