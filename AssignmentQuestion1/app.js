@@ -1,6 +1,8 @@
 // Question1
 // Qs1. Create a number variable num with some value.
 // Now, print "good" if the number is divisible by 10 and print "bad" if it is not.
+
+
 // let num=20;
 // if(num%10===0){
 //     console.log("good");
@@ -11,6 +13,8 @@
 
 // Qs2. Take the user's name & age as input using prompts.
 // Then return back the following statement to the user as an alert (by substituting their name & age):
+
+
 // let name=prompt("Enter your name here");
 // let age=prompt("Enter your age here");
 // let output=`${name} is ${age} years old`;
@@ -22,6 +26,8 @@
 // Months in Quarter 3 : July, August, September
 // Months in Quarter 4: October, November, December
 // [Use the number as the case value in switch]
+
+
 // let Quarter=3;
 // switch(Quarter){
 //     case 1:
@@ -41,12 +47,26 @@
 // Qs4. A string is a golden string if it starts with the character 'A' or 'a' and has a total length greater than 5.
 // For a given string print if it is golden or not.
 
-let string="Amritsar";
-if((string[0]=='a'||string[0]=='A')&& string.length>5){
-    console.log("golden string");
+
+// let string="Amritsar";
+// if((string[0]=='a'||string[0]=='A')&& string.length>5){
+//     console.log("golden string");
+// }else{
+//         console.log("not a golden string")
+//     }
+
+// Qs5. Write a program to find the largest of three numbers
+
+let A=22,B=17,C=15;
+if(A>B){
+    console.log("A is largest,"+A);
+}else if(B>C){
+    console.log("B is largest,"+B)     
 }else{
-        console.log("not a golden string")
-    }
+    console.log("C is largest,"+C)
+}
+
+
 
 
 
