@@ -57,13 +57,25 @@
 
 // Qs5. Write a program to find the largest of three numbers
 
-let A=22,B=17,C=15;
-if(A>B){
-    console.log("A is largest,"+A);
-}else if(B>C){
-    console.log("B is largest,"+B)     
+// let A=22,B=17,C=15;
+// if(A>B){
+//     console.log("A is largest,"+A);
+// }else if(B>C){
+//     console.log("B is largest,"+B)     
+// }else{
+//     console.log("C is largest,"+C)
+// }
+
+// Qs6 (Bonus). Write a program to check if 2 numbers have the same last digit.
+// Eg : 32 and 47852 have the same last digit i.e. 2
+
+let num1=32;
+let num2=47852;
+
+if(num1%10===num2%10){
+    console.log("numbers have the same last digit which is "+num1%10);
 }else{
-    console.log("C is largest,"+C)
+    console.log("numbers don't have same last digit")
 }
 
 
