@@ -1,0 +1,11 @@
+// Qs. For the given start state of an array, change it to final form using methods.
+// Start: ['january', 'july', 'march', 'august']
+// Final: ['july', 'june', 'march', 'august']
+
+let months=['january','july','march','august'];
+months.shift();
+months.shift();
+console.log(months);
+months.unshift("june");
+months.unshift("july");
+console.log(months);
