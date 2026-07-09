@@ -20,9 +20,22 @@ let output = Array.slice(-m);
 
 console.log(output);
 
+// Qs3. Write a JavaScript program to check whether a string is blank or not.
+
+let str = "   "; 
+
+if (str.trim().length === 0) {
+    console.log("The string is blank.");
+} else {
+    console.log("The string is not blank.");
+}
+
 // Qs6. Write a JavaScript program to check if an element exists in an array or not.
 
 let array=["Vanshika",89,"CSE(Aiml)",20];
 console.log(array.includes("Vanshika"));
 console.log(array.includes(30));
+
+
+
 
