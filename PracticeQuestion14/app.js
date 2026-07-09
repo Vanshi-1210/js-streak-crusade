@@ -30,6 +30,14 @@ if (str.trim().length === 0) {
     console.log("The string is not blank.");
 }
 
+// Qs5. Write a JavaScript program to strip leading and trailing spaces from a string.
+
+let str = "   Hello World!   ";
+
+let strippedStr = str.trim();
+
+console.log(strippedStr);
+
 // Qs6. Write a JavaScript program to check if an element exists in an array or not.
 
 let array=["Vanshika",89,"CSE(Aiml)",20];
