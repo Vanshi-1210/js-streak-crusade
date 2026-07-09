@@ -19,3 +19,9 @@ for(let i=2;i<=10;i++){
         console.log(i);
     }
 }
+
+// QS.4 Print multiplication table for 5.
+
+for(let i=1;i<=10;i++){
+    console.log(5*i);
+}
