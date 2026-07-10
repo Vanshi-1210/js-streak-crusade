@@ -9,3 +9,7 @@ let post={
     tags:["@apnacollege","@sigma"]
 };
 console.log(post);
+console.log(post.username);
+console.log(post.tags);
+console.log(post["content"]);
+console.log(post.tags[1]);
