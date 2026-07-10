@@ -1,0 +1,8 @@
+//Qs1. Print the factorial of a number n.
+
+let n=prompt("enter number");
+let fact=1;
+for(let i=1;i<=n;i++){
+    fact=fact*i;
+}
+console.log(fact);
