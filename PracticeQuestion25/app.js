@@ -17,4 +17,12 @@ printName("Kratika");
 printName("Hardik");
 
 
+// Create a function that takes two numbers as arguments and prints their sum.
+
+function calSum(a, b){
+    console.log("Sum of a and b is:",a+b);
+}
+calSum(80,45);
+
+
 
