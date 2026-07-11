@@ -24,5 +24,13 @@ function calSum(a, b){
 }
 calSum(80,45);
 
+// Create a function that give us the average of three numbers.
+
+function calAverage(a, b, c){
+    let avg=(a+b+c)/3;
+    console.log("Average of a, b and c is",avg);
+}
+calAverage(2,9,4);
+
 
 
