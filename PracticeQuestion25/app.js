@@ -32,5 +32,14 @@ function calAverage(a, b, c){
 }
 calAverage(2,9,4);
 
+// Create a function that prints the multiplication table of a number.
+
+function mulTable(num){
+    for(let i=1;i<=10;i++){
+        console.log(num*i);
+    }
+}
+mulTable(12);
+
 
 
