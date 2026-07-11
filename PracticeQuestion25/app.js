@@ -6,3 +6,15 @@ function printPoem(){
 }
 
 printPoem();
+
+// Create a function that takes a name as an argument and prints it to the console.
+
+function printName(name){
+    console.log(name);
+}
+printName("Vanshika");
+printName("Kratika");
+printName("Hardik");
+
+
+
