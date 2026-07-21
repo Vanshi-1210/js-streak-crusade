@@ -15,10 +15,18 @@ console.log("hello2");
 
 // Arrow function 
 
+// calculating sum
 const sum=(a,b)=>{
     console.log(a+b);
 }
 sum(3,4);
+
+// calculating cube
+const cube=(n)=>{
+  return n*n*n;
+}
+console.log(cube(3));
+
 
 
 
