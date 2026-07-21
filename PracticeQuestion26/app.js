@@ -28,6 +28,13 @@ const cube=(n)=>{
 console.log(cube(3));
 
 
+// calculating power 
+
+const pow=(a,b)=>{
+    return a**b;
+}
+console.log(pow(2,3));
+
 
 
 
