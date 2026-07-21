@@ -42,6 +42,13 @@ const mul=(a,b)=>(
 );
 console.log(mul(2,3));
 
+//setTimeout
+console.log("hi there!");
+setTimeout(()=>{
+    console.log("IEC College")
+},10000)
+console.log("Welcome to");
+
 
 
 
