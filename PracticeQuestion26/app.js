@@ -35,6 +35,13 @@ const pow=(a,b)=>{
 }
 console.log(pow(2,3));
 
+// implicit return
+
+const mul=(a,b)=>(
+    a*b
+);
+console.log(mul(2,3));
+
 
 
 
