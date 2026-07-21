@@ -9,4 +9,12 @@ let arrayAverage=nums=>{
  let avg=sum/nums.length;
  return avg;
 }
-console.log(arrayAvarage([5,3,4,8,5]));
+console.log(arrayAverage([5,3,4,8,5]));
+
+// Qs2. Write an arrow function named isEven()that takes a single number as argument and returns if it is even or not....
+
+const isEven=(n)=> (
+    n%2==0
+);
+
+console.log(isEven(17));
