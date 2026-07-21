@@ -7,13 +7,11 @@ console.log(square(8));
 
 // write a function that prints "Hello World" 5 times at intervals of 2s Each ..
 
-let count = 0;
-
-let id = setInterval(() => {
+let id=setInterval(()=>{
     console.log("Hello World");
-    count++;
-    
-    if (count === 5) {
-        clearInterval(id);
-    }
-}, 2000);
+},2000);
+
+setTimeout(() => {
+    clearInterval(id);
+    console.log("Clear interval ran");
+}, 10000);
