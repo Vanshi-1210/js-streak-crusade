@@ -50,10 +50,11 @@ setTimeout(()=>{
 console.log("Welcome to");
 
 
-// set interval 
-let id=setInterval(()=>{
-    console.log("Apna college")
-},4000);
+// // set interval 
+// let id=setInterval(()=>{
+//     console.log("Apna college")
+// },4000);
+
 
 
 
